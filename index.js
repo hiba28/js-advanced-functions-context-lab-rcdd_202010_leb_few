@@ -13,7 +13,12 @@ function createEmployeeRecords(array){
   let newArr = array.map(elem => createEmployeeRecord(elem))
 }
 function createTimeInEvent(date){
-
+  let obj = {
+    type : "TimeIne",
+    hour : date.getHours(),
+    date : date.getDate()
+  }
+  return this.
 }
 /*
  We're giving you this function. Take a look at it, you might see some usage
