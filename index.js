@@ -18,7 +18,7 @@ function createTimeInEvent(date){
     hour : date.getHours(),
     date : date.getDate()
   }
-  
+
   return this.
 }
 
