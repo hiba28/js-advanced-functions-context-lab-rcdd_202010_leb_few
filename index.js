@@ -14,11 +14,20 @@ function createEmployeeRecords(array){
 }
 function createTimeInEvent(date){
   let obj = {
-    type : "TimeIne",
+    type : "TimeIn",
     hour : date.getHours(),
     date : date.getDate()
   }
+  
   return this.
+}
+
+function createTimeOutEvent(date){
+  let obj = {
+    type : "TimeOut",
+    hour : date.getHours(),
+    date : date.getDate()
+  }
 }
 /*
  We're giving you this function. Take a look at it, you might see some usage
