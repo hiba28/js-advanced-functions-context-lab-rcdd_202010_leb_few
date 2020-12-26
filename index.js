@@ -1,12 +1,12 @@
 /* Your Code Here */
 function createEmployeeRecord(array){
   return{
-    this.firstName,
-    this.familyName,
-    this.title,
-    this.payPerHour,
-    this.timeInEvents,
-    this.timeOutEvents
+    this.firstName = array[0],
+    this.familyName = array[0],
+    this.title = array[0],
+    this.payPerHour = array[0],
+    this.timeInEvents = [],
+    this.timeOutEvents = []
   }
 }
 /*
