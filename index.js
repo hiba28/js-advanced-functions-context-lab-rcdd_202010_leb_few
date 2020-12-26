@@ -18,7 +18,7 @@ function createTimeInEvent(date){
     hour : date.getHours(),
     date : date.getDate()
   }
-
+  
 }
 
 function createTimeOutEvent(date){
@@ -27,6 +27,14 @@ function createTimeOutEvent(date){
     hour : date.getHours(),
     date : date.getDate()
   }
+}
+
+function hoursWorkedOnDate(date){
+  return hoursWorked
+}
+
+function wagesEarnedOnDate(){
+  
 }
 /*
  We're giving you this function. Take a look at it, you might see some usage
