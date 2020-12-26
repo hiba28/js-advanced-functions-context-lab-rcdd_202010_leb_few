@@ -19,7 +19,6 @@ function createTimeInEvent(date){
     date : date.getDate()
   }
 
-  return this.
 }
 
 function createTimeOutEvent(date){
