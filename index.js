@@ -10,7 +10,7 @@ function createEmployeeRecord(array){
   }
 }
 function createEmployeeRecords(array){
-  let newArr = array.map(elem => createEmployeeRecord(elem))
+  return array.map(elem => createEmployeeRecord(elem))
 }
 function createTimeInEvent(date){
   let obj = {
