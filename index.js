@@ -37,9 +37,6 @@ function wagesEarnedOnDate(date){
 
 }
 
-function allWagesFor(){
-
-}
 function findEmployeeByFirstName(){
 
 }
