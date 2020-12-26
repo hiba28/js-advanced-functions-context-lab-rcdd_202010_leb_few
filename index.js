@@ -1,12 +1,12 @@
 /* Your Code Here */
 function createEmployeeRecord(array){
   return{
-    this.firstName = array[0],
-    this.familyName = array[1],
-    this.title = array[2],
-    this.payPerHour = array[3],
-    this.timeInEvents = [],
-    this.timeOutEvents = []
+    firstName : array[0],
+    familyName : array[1],
+    title : array[2],
+    payPerHour : array[3],
+    timeInEvents : [],
+    timeOutEvents : []
   }
 }
 function createEmployeeRecords(array){
