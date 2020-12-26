@@ -12,6 +12,9 @@ function createEmployeeRecord(array){
 function createEmployeeRecords(array){
   let newArr = array.map(elem => createEmployeeRecord(elem))
 }
+function createTimeInEvent(date){
+  
+}
 /*
  We're giving you this function. Take a look at it, you might see some usage
  that's new and different. That's because we're avoiding a well-known, but
