@@ -1,7 +1,7 @@
 /* Your Code Here */
 function createEmployeeRecord(array){
   return{
-    this.firstName = array[0],
+    firstName = array[0],
     this.familyName = array[1],
     this.title = array[2],
     this.payPerHour = array[3],
