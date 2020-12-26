@@ -1,13 +1,16 @@
 /* Your Code Here */
 function createEmployeeRecord(array){
   return{
-    firstName = array[0],
+    this.firstName = array[0],
     this.familyName = array[1],
     this.title = array[2],
     this.payPerHour = array[3],
     this.timeInEvents = [],
     this.timeOutEvents = []
   }
+}
+function createEmployeeRecords(array){
+  let newArr = array.map(elem => createEmployeeRecord(elem))
 }
 /*
  We're giving you this function. Take a look at it, you might see some usage
