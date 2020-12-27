@@ -28,6 +28,7 @@ function createTimeOutEvent(date){
     hour : parseInt(hour, 10),
     date ,
   }
+  return this
 }
 
 function hoursWorkedOnDate(date){
