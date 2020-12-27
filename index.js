@@ -12,8 +12,8 @@ function createEmployeeRecord(array){
 function createEmployeeRecords(array){
   return array.map(elem => createEmployeeRecord(elem))
 }
-function createTimeInEvent(date){
-  let [date, hour] = date.split(' ');
+function createTimeInEvent(dateS){
+  let [date, hour] = dateS.split(' ');
   this.timeInEvents.push({
     type : "TimeIn",
     hour : parseInt(hour, 10),
@@ -22,8 +22,8 @@ function createTimeInEvent(date){
   return this
 }
 
-function createTimeOutEvent(date){
-  let [date, hour] = date.split(' ');
+function createTimeOutEvent(dateS){
+  let [date, hour] = dateS.split(' ');
   this.timeOutEvents.push({
     type : "TimeOut",
     hour : parseInt(hour, 10),
