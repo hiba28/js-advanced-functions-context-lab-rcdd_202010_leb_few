@@ -48,7 +48,7 @@ function findEmployeeByFirstName(srcArray,firstName){
 }
 
 function calculatePayroll(array){
-  return array.reduce((acc,curr) => acc + wagesEarnedOnDate(array.date))
+  return array.reduce((acc,curr) => acc + wagesEarnedOnDate.call(curr))
 }
 /*
  We're giving you this function. Take a look at it, you might see some usage
