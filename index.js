@@ -25,7 +25,7 @@ function createTimeOutEvent(date){
   let obj = {
     type : "TimeOut",
     hour : date.split(" ").slice(1),
-    date : date.getDate()
+    date : date.split(" ").slice(0,1)
   }
 }
 
