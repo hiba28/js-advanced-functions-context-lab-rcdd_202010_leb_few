@@ -39,8 +39,9 @@ function hoursWorkedOnDate(dateWork){
 }
 
 function wagesEarnedOnDate(date){
-  return parseInt(hoursWorkedOnDate(date)*this.payPerHour,10)
-}
+  let rawWage = hoursWorkedOnDate.call(this, dateSought)
+          * this.payPerHour
+      return parseFloat(rawWage.toString())}
 
 function findEmployeeByFirstName(srcArray,firstName){
   return this.srcArray.find(e => e.firstName === firstName)
