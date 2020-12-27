@@ -39,8 +39,7 @@ function hoursWorkedOnDate(dateWork){
 }
 
 function wagesEarnedOnDate(date){
-  let rawWage = hoursWorkedOnDate.call(this, dateSought)
-          * this.payPerHour
+  let rawWage = hoursWorkedOnDate.call(this, date)* this.payPerHour
   return parseFloat(rawWage.toString())
 }
 
