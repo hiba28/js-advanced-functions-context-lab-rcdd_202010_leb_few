@@ -33,7 +33,7 @@ function createTimeOutEvent(dateS){
 }
 
 function hoursWorkedOnDate(date){
-  return hoursWorked
+  createTimeInEvent.call(this,date)
 }
 
 function wagesEarnedOnDate(date){
