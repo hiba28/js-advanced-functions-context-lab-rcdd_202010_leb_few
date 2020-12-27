@@ -14,22 +14,21 @@ function createEmployeeRecords(array){
 }
 function createTimeInEvent(date){
   let [date, hour] = date.split(' ')
-  let obj = {
+  this.timeInEvents.push({
     type : "TimeIn",
     hour : parseInt(hour, 10),
     date ,
-  }
+  })
   return this
-
 }
 
 function createTimeOutEvent(date){
   let [date, hour] = date.split(' ')
-  let obj = {
+  this.timeOutEvents.push({
     type : "TimeOut",
     hour : parseInt(hour, 10),
     date ,
-  }
+  })
   return this
 }
 
