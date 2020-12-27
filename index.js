@@ -13,11 +13,13 @@ function createEmployeeRecords(array){
   return array.map(elem => createEmployeeRecord(elem))
 }
 function createTimeInEvent(date){
+  let [date, hour] = date.split(' ')
   let obj = {
-    type : "TimeIn",
-    hour : date.getHours(),
-    date : date.getDate()
+    type : "TimeOut",
+    hour : parseInt(hour, 10),
+    date ,
   }
+  return this
 
 }
 
