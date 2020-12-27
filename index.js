@@ -42,7 +42,7 @@ function wagesEarnedOnDate(date){
   return parseInt(hoursWorkedOnDate(date)*this.payPerHour,10)
 }
 
-function findEmployeeByFirstName(){
+function findEmployeeByFirstName(srcArray,firstName){
 
 }
 
