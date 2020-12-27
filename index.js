@@ -22,10 +22,11 @@ function createTimeInEvent(date){
 }
 
 function createTimeOutEvent(date){
+  let [date, hour] = date.split(' ')
   let obj = {
     type : "TimeOut",
-    hour : date.split(" ").slice(1),
-    date : date.split(" ").slice(0,1)
+    hour : parseInt(hour, 10),
+    date ,
   }
 }
 
