@@ -43,7 +43,7 @@ function wagesEarnedOnDate(date){
 }
 
 function findEmployeeByFirstName(srcArray,firstName){
-  return 
+  return
 }
 
 function calculatePayroll(){
